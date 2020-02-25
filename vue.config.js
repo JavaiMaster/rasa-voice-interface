@@ -6,6 +6,18 @@ module.exports = {
 	filenameHashing: false,
 	productionSourceMap: false,
 	integrity: false,
+	devServer: {
+		port: 8080,
+		https: true,
+		host : '0.0.0.0',
+		proxy: {
+            "/sock/*": {
+                target: "http://localhost:5005",
+                secure: false,
+                ws: true
+            }
+        }
+	},
 	css: {
 		extract: false,
 		loaderOptions: {
