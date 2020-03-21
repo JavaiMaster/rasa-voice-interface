@@ -19,13 +19,13 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.use(
 	new VueSocketIO({
 		debug: true,
-		connection: 'https://192.168.1.253:8080/sock',
+		connection: 'https://35.232.228.158:8080/sock',
 		vuex: {
 			store,
 			actionPrefix: 'SOCKET_',
 			mutationPrefix: 'SOCKET_'
 		}
-		// transports: ['websocket', 'polling', 'flashsocket']
+	//	transports: ['websocket', 'polling', 'flashsocket']
 	})
 );
 
