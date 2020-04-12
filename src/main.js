@@ -19,7 +19,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.use(
 	new VueSocketIO({
 		debug: true,
-		connection: 'https://app.chattybot.us/',
+		connection: 'https://app.chattybot.us',
 		vuex: {
 			store,
 			actionPrefix: 'SOCKET_',
