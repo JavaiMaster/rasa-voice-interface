@@ -67,7 +67,7 @@ export default {
 	mixins: [MessageHandlerMixin],
 	data() {
 		return {
-			welcomeMessage: 'Hello, I\'m Sara. How can I help you?',
+			welcomeMessage: 'Hello, I\'m Sara. Press the microphone button below and say \'Hi Sara\', to begin!',
 			displayNewMesssage: true,
 			audio: undefined
 		};
