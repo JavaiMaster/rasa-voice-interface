@@ -3,8 +3,8 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-4 text-left">
-					<a href="https://rasa.com/" target="_blank">
-						<img id="header-logo" src="@/assets/icon/logo.png">
+					<a href="https://www.lti.cs.cmu.edu" target="_blank">
+						<img id="header-logo" src="@/assets/icon/18483351_600x600.webp">
 					</a>
 				</div>
 				<div class="col-4 text-middle"></div>
