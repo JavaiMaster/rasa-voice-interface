@@ -3,7 +3,7 @@
     <footer>
         <audio class="sound-clips"></audio>
         <audio id="play"
-               src="https://d9olupt5igjta.cloudfront.net/samples/sample_files/9037/6de9cc756b2279724890c6580fb13cf3c4384823/mp3/72125-sweetalertsound1-wav.mp3"></audio>
+               src="https://app.chattybot.us/bingo/system/chime.mp3"></audio>
         <canvas id="sound-visualizer" width="100%" height="300px">
         </canvas>
         <transition name="fade" mode="out-in">
